@@ -23,14 +23,13 @@ console.log("Scrieți o funcție care returnează un obiect nou fără propriet�
 const a = 1;
 const b = 2;
 
-const object = {
+const object1 = {
     a: a,
     b: b,
 }
 
 const removeElement = (object, b) => {
-    delete object.b
-    return object;
+    delete object[b]
 }
 
 const result = removeElement(object, b);
