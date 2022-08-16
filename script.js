@@ -32,7 +32,7 @@ const removeElement = (object, b) => {
     delete object[b]
 }
 
-const result = removeElement(object, b);
+const result = removeElement(object1, b);
 console.log(result);
 
 console.log('\n');
