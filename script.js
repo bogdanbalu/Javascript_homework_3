@@ -59,9 +59,9 @@ const books = [
 
 const displayBooks = (setBooks) => {
     for (const book of setBooks) {
-        if (book.read === 1) {
+        if (book.read === true) {
             console.log(`${book.title} de ${book.author} \n Ai citit deja ${book.title} de ${book.author}`);
-        } else if (book.read === 0) {
+        } else if (book.read === false) {
             console.log(`${book.title} de ${book.author} \n Trebuie sa citesti ${book.title} de ${book.author}`);
         }
     }    
